@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sqlite-outbox-crash-lab"
+version = "0.1.0a1"
+description = "FR: Rejouer la panne entre effet distant et accusé local | EN: Replay crashes between remote effect and local acknowledgement | ES: Reproducir fallos entre efecto remoto y confirmación local"
+requires-python = ">=3.11"
+license = "MIT"
+
+[project.scripts]
+sqlite-outbox-crash-lab = "sqlite_outbox_crash_lab.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["sqlite_outbox_crash_lab*"]

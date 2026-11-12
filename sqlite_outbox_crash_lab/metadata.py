@@ -1,0 +1,1 @@
+DESCRIPTION = {'fr': 'Rejouer la panne entre effet distant et accusé local', 'en': 'Replay crashes between remote effect and local acknowledgement', 'es': 'Reproducir fallos entre efecto remoto y confirmación local'}

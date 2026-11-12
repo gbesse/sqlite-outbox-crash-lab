@@ -1,0 +1,5 @@
+{
+  "operation_key": "order-1",
+  "value": "synthetic",
+  "crash_after_remote_commit": true
+}
